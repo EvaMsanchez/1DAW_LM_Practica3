@@ -1,0 +1,136 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    }
+
+#cabecera{
+    background-color: black;
+    height: 280px;
+    text-align: center;
+}
+
+#cabecera img{
+    width: 220px;
+}
+
+#cabecera h1{
+    /*background-color: blue;*/
+    color: white;
+    font-size:40px;
+}
+
+#navegacion{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu{
+    /*background-color:coral;*/
+    color: white;
+    width: 120px;
+    text-align: center;
+    text-shadow: 1px 1px 3px white;
+}
+
+#section{
+    /*background-color: coral;*/
+    width: 100%;
+    height: 1580px;
+}
+
+.introduccion{
+    /*background-color: crimson;*/
+    width: 45%;
+    height: 330px;
+    padding: 35px 20px;
+    margin: auto;
+    text-align: center; /*Centrar el interior de la caja*/
+}
+
+p{
+    text-align: justify;
+}
+
+.articulo{
+    /*background-color: chartreuse;*/
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+/*Recuadro donde va cada imagen con el texto*/
+.imagen{
+    background-color: darkgrey;
+    width: 300px;
+    height: 490px;
+    padding: 20px 20px;
+    text-align: center; /*Centra la imagen*/
+}
+
+.imagen img{
+    width: 300px;
+    height: 240px;
+    margin: 0px 0px 10px 0px;
+}
+
+.negrita{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.imagen p{ 
+    font-size: small; /*Letra más pequeña debajo de las fotos*/
+}
+
+.volver_inicio{
+    /*background-color: yellow;*/
+    padding-right: 35px;
+}
+
+.volver_inicio p{
+    text-align: right;
+    font-size: smaller;
+    text-shadow: 1px 1px 2px grey;
+}
+
+#pie{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.copyright{
+    padding-left: 10px;
+    font-size: smaller;
+}
+
+/*Enlaces y pseudoclases*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu a:hover{
+    color: salmon;
+}
+
+.volver_inicio a:hover{ /*Efecto al pasar el ratón por encima*/
+    color: darkcyan;
+}
+
+.imagen a img:hover{
+    transform: scale(1.1); /*Al pasar el ratón cambia el tamaño de la imagen a más grande*/
+}
